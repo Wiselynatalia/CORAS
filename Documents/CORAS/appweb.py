@@ -154,44 +154,5 @@ for r in range (1,row):
         j+=1
     
 
-# print(val(0,8))
-
-
-
-
-
-
-
-# for i in range (row): 
-#     if (i== 0) :
-#         for j in range (col):
-#             appSheet.set_column(j,j,25)
-#             appSheet.write(i,j, val(0,j),abold)
-#             webSheet.set_column(j,j,25)
-#             webSheet.write(i,j, val(0,j),wbold)
-
-#     if( val(i,12) != None): #its app
-#         for j in range (col):
-#             outSheet.write()
-
-
-
-
-# if (val(0,0) !=  None):
-#     print(val(0,13))
-#     print((val(1,13)))
-#     e = datetime.fromisoformat(val(1,13)) # for string format
-#     print(e)
-#     print(val(0,12))
-#     print(val(1,12))
-#     print(con(val(1,12)))
-
-    # excel_date = con(val(1,12))
-
-    
-    
-# else:
-#     print("empty")
-
 app.close()
 web.close()
